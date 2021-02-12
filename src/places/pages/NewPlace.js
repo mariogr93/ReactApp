@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import Input from "../../shared/components/FormElements/Input";
 
 const NewPlace = () => {
-    return <h2>new place</h2>
-}
+  return (
+    <div>
+      <Input />
+    </div>
+  );
+};
 
-export default NewPlace
+export default NewPlace;
